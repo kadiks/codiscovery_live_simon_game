@@ -1,5 +1,7 @@
 # Simon game
 
+![gif](./extras/simon_game.gif)
+
 Jeu fait durant un live streaming. [Voici un replay du live](https://www.youtube.com/watch?v=Zp9vYQtUhEc)
 
 Pour d'autres lives, voici le channel [Twitch](https://www.twitch.tv/jenaiccambre)
