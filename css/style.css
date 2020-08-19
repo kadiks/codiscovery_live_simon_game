@@ -1,0 +1,99 @@
+:root {
+    --color-red: #ea4f3e;
+    --color-yellow: #febf0c;
+    --color-blue: #2480de;
+    --color-bg: #0e1b4a;
+    --color-green: #2fe13f;
+    --color-text: #FFF;
+    --text-title: 'Playfair Display', serif;
+    --text-body: 'Source Sans Pro', sans-serif;
+}
+
+/**
+ Blue: #2480de
+ Yellow: #febf0c
+ Green: 
+ Red: #ea4f3e
+ Background: #0e1b4a
+*/
+
+body {
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--text-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--text-title);
+}
+
+button {
+    font-family: var(--text-body);
+    font-weight: 700;
+    color: var(--color-text);
+    background: var(--color-red);
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: .3em;
+}
+
+.game-screen, .end-screen {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.start-screen {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.end-screen {
+    text-align: center;
+}
+
+.game-btn {
+    transition-duration: .2s;
+    transition-property: opacity;
+    transition-timing-function: ease-in-out;
+}
+
+.game-btn.animated {
+    opacity: .2;
+}
+
+.game-btns {
+    width: 404px;
+    margin: 0 auto;
+}
+
+.game-btn {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-color: transparent;
+    background: transparent;
+}
+
+.game-btn-red {
+    color: var(--color-red);
+    background: var(--color-red);
+}
+.game-btn-yellow {
+    color: var(--color-yellow);
+    background: var(--color-yellow);
+}
+.game-btn-blue {
+    color: var(--color-blue);
+    background: var(--color-blue);
+}
+
+.game-btn-green {
+    color: var(--color-green);
+    background: var(--color-green);
+}
+

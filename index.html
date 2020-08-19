@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8" />
+        <title>Simon game</title>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Source+Sans+Pro:wght@300;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <h1>Simon</h1>
+        <div class="start-screen">
+            <button>START</button>
+        </div>
+        <div class="game-screen">
+            <h4>Listen!</h4>
+            <p>Score: <span>0</span></p>
+            <div class="game-btns">
+                <div>
+                    <button class="game-btn game-btn-red" data-color="red">RED</button>
+                    <button class="game-btn game-btn-yellow" data-color="yellow">YELLOW</button>
+                </div><!--
+                --><div>
+                    <button class="game-btn game-btn-green" data-color="green">GREEN</button>
+                    <button class="game-btn game-btn-blue" data-color="blue">BLUE</button>
+                </div>
+            </div>
+        </div><!-- /.game-screen -->
+        <div class="end-screen">
+            <h3>Win/loose</h3>
+            <p>Your score is: <span>10</span></p>
+            <button>Try again!</button>
+        </div><!-- /.end-screen -->
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>
